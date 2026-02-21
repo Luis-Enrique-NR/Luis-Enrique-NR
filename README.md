@@ -66,6 +66,17 @@ Enfocado en construir sistemas robustos, escalables y con altos estándares de s
   <img src="https://readme-typing-svg.herokuapp.com?font=Chakra+Petch&weight=600&size=28&duration=1&repeat=false&color=36BCF7&center=true&vCenter=true&width=450&lines=%F0%9F%9A%80+Proyectos+Destacados" alt="Proyectos" />
 </h2>
 
+#### 🔐 Scholarship Management System
+**Backend Developer** | *Feb 2026 - En desarrollo*
+Sistema escalable de gestión de becas con arquitectura de seguridad desacoplada y automatización CI.
+- **Arquitectura Distribuida:** Separación de responsabilidades entre **Authorization Server** (Puerto 9000) y **Resource Server** (Puerto 8080) bajo estándares **OAuth2/OIDC**.
+- **Seguridad Avanzada:** Implementación de **Login Híbrido** (Credenciales locales + Google Social Login) y validación de tokens **JWT Stateless** mediante firmas criptográficas RSA.
+- **Integración Continua (CI):** Pipeline automatizado en **GitHub Actions** que ejecuta ciclos de construcción y validación en cada integración.
+- **Calidad de Software:** Cobertura de pruebas unitarias con **JUnit 5** y **Mockito** en capas de servicio y controladores, asegurando lógica de negocio robusta.
+- **Control de Acceso (RBAC):** Autorización granular mediante **Spring Security**, protegiendo endpoints críticos según roles y claims personalizados.
+- **Documentación Interactiva:** Exposición y testeo de endpoints **API REST** mediante **Swagger** (OpenAPI 3), facilitando la integración con el cliente.
+
+
 #### 🔥 Sistema de Gestión - Empresa Productora de Alimentos
 **Backend Developer** | *Mar 2025 - Jul 2025*
 - Implementación de **API REST** con Spring Boot bajo el enfoque **DDD**.
