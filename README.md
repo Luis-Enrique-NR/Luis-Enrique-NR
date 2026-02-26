@@ -68,7 +68,7 @@ Enfocado en construir sistemas robustos, escalables y con altos estándares de s
 
 #### 🔐 Scholarship Management System
 **Backend Developer** | *Feb 2026 - En desarrollo*
-Sistema escalable de gestión de becas con arquitectura de seguridad desacoplada y automatización CI.
+- Sistema escalable de gestión de becas con arquitectura de seguridad desacoplada y automatización CI.
 - **Arquitectura Distribuida:** Separación de responsabilidades entre **Authorization Server** (Puerto 9000) y **Resource Server** (Puerto 8080) bajo estándares **OAuth2/OIDC**.
 - **Seguridad Avanzada:** Implementación de **Login Híbrido** (Credenciales locales + Google Social Login) y validación de tokens **JWT Stateless** mediante firmas criptográficas RSA.
 - **Integración Continua (CI):** Pipeline automatizado en **GitHub Actions** que ejecuta ciclos de construcción y validación en cada integración.
